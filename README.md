@@ -9,7 +9,7 @@ It pages through service call results (via paginator objects) and returns an ite
 
 **client** : A boto3 client to the target service (ec2, s3, etc.).
 
-**method** : The paginator method to call against the target service.  A list of all paginators and their methods can be found in the [https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html](boto3 documentation).
+**method** : The paginator method to call against the target service.  A list of all paginators and their methods can be found in the [boto3 documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html).
 
 **items\_per\_page** : Number of results per page to return. (Defaults to 10 items.)
 
