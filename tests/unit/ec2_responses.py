@@ -1,4 +1,4 @@
-'''Static data for boto3 stubbing.'''
+"""Static data for EC2 stubbing."""
 
 from datetime import datetime
 
@@ -14,7 +14,8 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                     'CapacityReservationSpecification': {
                         'CapacityReservationPreference': 'open'
                     },
-                    'ClientToken': '00000000-0000-0000-0000-000000000000_subnet-00000000_0',
+                    'ClientToken': '00000000-0000-0000-0000-000000000000_\
+                            subnet-00000000_0',
                     'CpuOptions': {
                         'CoreCount': 1,
                         'ThreadsPerCore': 1
@@ -47,9 +48,11 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                     },
                     'StateReason': {
                         'Code': 'Client.UserInitiatedShutdown',
-                        'Message': 'Client.UserInitiatedShutdown: User initiated shutdown'
+                        'Message': 'Client.UserInitiatedShutdown: User \
+                                initiated shutdown'
                     },
-                    'StateTransitionReason': 'User initiated (2019-05-30 13:23:50 GMT)',
+                    'StateTransitionReason': 'User initiated (2019-05-30 \
+                            13:23:50 GMT)',
                     'Tags': [
                         {
                             'Key': 'SampleTag1',
@@ -106,9 +109,11 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                     },
                     'StateReason': {
                         'Code': 'Client.UserInitiatedShutdown',
-                        'Message': 'Client.UserInitiatedShutdown: User initiated shutdown'
+                        'Message': 'Client.UserInitiatedShutdown: User \
+                                initiated shutdown'
                     },
-                    'StateTransitionReason': 'User initiated (2019-05-30 13:23:31 GMT)',
+                    'StateTransitionReason': 'User initiated (2019-05-30 \
+                            13:23:31 GMT)',
                     'Tags': [
                         {
                             'Key': 'SampleTag1',
@@ -142,7 +147,8 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                     'CapacityReservationSpecification': {
                         'CapacityReservationPreference': 'open'
                     },
-                    'ClientToken': 'AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA_subnet-AAAAAAAA_A',
+                    'ClientToken': 'AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA_\
+                            subnet-AAAAAAAA_A',
                     'CpuOptions': {
                         'CoreCount': 1,
                         'ThreadsPerCore': 1
@@ -160,7 +166,8 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                         {
                             'Association': {
                                 'IpOwnerId': 'amazon',
-                                'PublicDnsName': 'ec2-3-81-252-87.compute-1.amazonaws.com',
+                                'PublicDnsName': 'ec2-3-81-252-87.\
+                                        compute-1.amazonaws.com',
                                 'PublicIp': '3.81.252.87'
                             },
                             'Attachment': {
@@ -188,11 +195,13 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                                 {
                                     'Association': {
                                         'IpOwnerId': 'amazon',
-                                        'PublicDnsName': 'ec2-3-81-252-87.compute-1.amazonaws.com',
+                                        'PublicDnsName': 'ec2-3-81-252-87.\
+                                                compute-1.amazonaws.com',
                                         'PublicIp': '3.81.252.87'
                                     },
                                     'Primary': True,
-                                    'PrivateDnsName': 'ip-172-31-38-42.ec2.internal',
+                                    'PrivateDnsName': 'ip-172-31-38-42.\
+                                            ec2.internal',
                                     'PrivateIpAddress': '172.31.38.42'
                                 }
                             ],
@@ -279,7 +288,8 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                         {
                             'Association': {
                                 'IpOwnerId': 'amazon',
-                                'PublicDnsName': 'ec2-54-146-180-121.compute-1.amazonaws.com',
+                                'PublicDnsName': 'ec2-54-146-180-121.\
+                                        compute-1.amazonaws.com',
                                 'PublicIp': '54.146.180.121'
                             },
                             'Attachment': {
@@ -293,7 +303,7 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                             'Groups': [
                                 {
                                     'GroupId': 'sg-BBBBBBBBBBBBBBBBB',
-                                    'GroupName': 'CentOS 7 with Updates HVM-1901_01-AutogenByAWSMP-'
+                                    'GroupName': 'B'
                                 }
                             ],
                             'InterfaceType': 'interface',
@@ -307,11 +317,13 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                                 {
                                     'Association': {
                                         'IpOwnerId': 'amazon',
-                                        'PublicDnsName': 'ec2-54-146-80-21.compute-1.amazonaws.com',
+                                        'PublicDnsName': 'ec2-54-146-80-21.\
+                                                compute-1.amazonaws.com',
                                         'PublicIp': '54.146.80.21'
                                     },
                                     'Primary': True,
-                                    'PrivateDnsName': 'ip-172-31-71-43.ec2.internal',
+                                    'PrivateDnsName': 'ip-172-31-71-43.\
+                                            ec2.internal',
                                     'PrivateIpAddress': '172.31.71.43'
                                 }
                             ],
@@ -334,14 +346,15 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
                             'ProductCodeType': 'marketplace'
                         }
                     ],
-                    'PublicDnsName': 'ec2-54-146-180-121.compute-1.amazonaws.com',
+                    'PublicDnsName': 'ec2-54-146-180-121.\
+                            compute-1.amazonaws.com',
                     'PublicIpAddress': '54.146.180.121',
                     'RootDeviceName': '/dev/sda1',
                     'RootDeviceType': 'ebs',
                     'SecurityGroups': [
                         {
                             'GroupId': 'sg-BBBBBBBBBBBBBBBBB',
-                            'GroupName': 'CentOS 7 with Updates HVM-1901_01-AutogenByAWSMP-'
+                            'GroupName': 'B'
                         }
                     ],
                     'SourceDestCheck': True,
@@ -369,88 +382,7 @@ EC2_DESCRIBE_INSTANCES_RESPONSE = {
             'vary': 'accept-encoding'
         },
         'HTTPStatusCode': 200,
-        'RequestId': '58b3045d-a995-48cc-9b6c-ea33f811b589',
-        'RetryAttempts': 0
-    }
-}
-
-S3_LIST_OBJECTS_RESPONSE = {
-    'Contents': [
-        {
-            'ETag': '"1"',
-            'Key': 'AWSLogs/000000000000/',
-            'LastModified': datetime.utcnow(),
-            'Owner': {
-                'DisplayName': 'owner-1',
-                'ID': '1'
-            },
-            'Size': 0,
-            'StorageClass': 'STANDARD'
-        },
-        {
-            'ETag': '"a4a901f98ae5ca161fa523ffd3233f0c"',
-            'Key': 'AWSLogs/000000000000/CloudTrail/us-east-1/2018/06/26/0.json.gz',
-            'LastModified': datetime.utcnow(),
-            'Owner': {
-                'DisplayName': 'owner-1',
-                'ID': '1'
-            },
-            'Size': 807,
-            'StorageClass': 'STANDARD'
-        },
-        {
-            'ETag': '"2248ae82bd76540443bd2d5218265819"',
-            'Key': 'AWSLogs/000000000000/CloudTrail/us-east-1/2018/06/26/1.json.gz',
-            'LastModified': datetime.utcnow(),
-            'Owner': {
-                'DisplayName': 'owner-1',
-                'ID': '1'
-            },
-            'Size': 671,
-            'StorageClass': 'STANDARD'
-        },
-        {
-            'ETag': '"b3e5482d0bc0a612399f60920b538a69"',
-            'Key': 'AWSLogs/000000000000/CloudTrail/us-east-1/2018/06/26/2.json.gz',
-            'LastModified': datetime.utcnow(),
-            'Owner': {
-                'DisplayName': 'owner-1',
-                'ID': '1'
-            },
-            'Size': 679,
-            'StorageClass': 'STANDARD'
-        },
-        {
-            'ETag': '"144c2f558839e4bb8c60ac693462006c"',
-            'Key': 'AWSLogs/000000000000/CloudTrail/us-east-1/2018/06/26/3.json.gz',
-            'LastModified': datetime.utcnow(),
-            'Owner': {
-                'DisplayName': 'owner-1',
-                'ID': '1'
-            },
-            'Size': 810,
-            'StorageClass': 'STANDARD'
-        }
-    ],
-    'EncodingType': 'url',
-    'IsTruncated': True,
-    'Marker': '',
-    'MaxKeys': 1000,
-    'Name': '000000000000-awsmacietrail-dataevent',
-    'Prefix': '',
-    'ResponseMetadata': {
-        'HTTPHeaders': {
-            'content-type': 'application/xml',
-            'date': 'Thu, 30 May 2019 18:13:16 GMT',
-            'server': 'AmazonS3',
-            'transfer-encoding': 'chunked',
-            'x-amz-bucket-region': 'us-east-1',
-            'x-amz-id-2': '...',
-            'x-amz-request-id': '52AFB2E25816154E'
-        },
-        'HTTPStatusCode': 200,
-        'HostId': 'EbDbNkk2uT+B0PE2kTZLNtmbAJ7e785KdNAuHtHL7fcvIK931tU0MplO4jEyDiilCqjIT7KF3YQ=',
-        'RequestId': '52AFB2E25816154E',
+        'RequestId': '------------------------------------',
         'RetryAttempts': 0
     }
 }
