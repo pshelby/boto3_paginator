@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "boto3_paginator"
+version = "0.1.0"
+description = "Wrapper around boto3's pagination functionality."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.16.55"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
