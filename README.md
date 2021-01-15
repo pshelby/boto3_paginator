@@ -21,6 +21,10 @@ It pages through service call results (via paginator objects) and returns an ite
 
 ## Development
 
+```bash
+poetry install
+```
+
 ### Testing
 
 Unit tests are located in `tests/unit`, integration tests are in `tests/integration`, and the supplied static responses in `tests/fixtures`.  Integration tests require an enabled AWS profile.
