@@ -1,5 +1,4 @@
 # boto3 Pagination
----
 
 This package provides the `slurp_items()` function as an interface to boto3's paginators.
 It pages through service call results (via paginator objects) and returns an iterator over those pages, without having to deal with messy markers, tokens, or page identifiers.
