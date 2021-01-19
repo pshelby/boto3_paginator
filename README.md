@@ -21,7 +21,7 @@ It pages through service call results (via paginator objects) and returns an ite
 
 ## Development
 
-Using `poetry`:
+Using [poetry](https://python-poetry.org/docs/):
 
 ```bash
 poetry install
