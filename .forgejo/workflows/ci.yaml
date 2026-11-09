@@ -1,10 +1,11 @@
 ---
-name: CI
+name: ci
 
 on:
-  push:
-    branches:
-      - "**"
+  [push]
+  # push:
+  #   branches:
+  #     - "**"
 
 jobs:
   run-checks:
